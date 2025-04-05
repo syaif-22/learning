@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .menu {
+            display: flex;
+            background-color: #333;
+            padding: 10px;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+        }
+        .menu a:hover {
+            background-color: #575757;
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            height: 30vh;
+        }
+        .text {
+            width: 50%;
+        }
+        .image {
+            width: 50%;
+            text-align: right;
+        }
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
+        .biodata-section {
+            padding: 50px;
+            background-color: #eee;
+            text-align: center;
+        }
+        .biodata-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .biodata-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .portfolio-section {
+            padding: 50px;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        .portfolio-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .portfolio-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .portfolio-box img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home" class="section">
+        <div class="text">
+            <h1>Home</h1>
+            <p>Selamat Datang</p>
+        </div>
+        <div class="image">
+            <img src="Logo.png" title="Logo Persib">
+        </div>
+    </section>
+    
+    <section class="biodata-section">
+        <h1>Biodata</h1>
+        <div class="biodata-container">
+            <div class="biodata-box">Nama: Arsenio</div>
+            <div class="biodata-box">Umur: 10</div>
+            <div class="biodata-box">Pekerjaan: Merengek</div>
+            <div class="biodata-box">Alamat: Rancaekek</div>
+            <div class="biodata-box">Email: Dilan@example.com</div>
+            <div class="biodata-box">Telepon: 08123456789</div>
+        </div>
+    </section>
+    
+    <section class="portfolio-section">
+	<b> <i> <br>
+        <h1>Portofolio</h1>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="" alt="Project 1">
+                <p>Project 1</p>
+            </div>
+            <div class="portfolio-box">
+                <img src="Logo.png" alt="Project 2">
+                <p>Project 2</p>
+            </div>
+            <div class="portfolio-box">
+                <img src="https://via.placeholder.com/300" alt="Project 3">
+                <p>Project 3</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+
