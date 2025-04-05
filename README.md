@@ -1,0 +1,2 @@
+# learning
+latihan 1
